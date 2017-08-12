@@ -1,0 +1,128 @@
+
+.device {
+    width: 400px;
+    height: 600px;
+    display: block;
+    margin: 30px auto 0;
+    }
+
+
+.device-outline-4{
+    overflow: hidden;
+    width: 1200px;
+    height: 1200px;
+    position: relative;
+    top: -000px;
+    left: -400px;
+    border-radius: 900px;
+    display: block;
+    }
+.device-outline-3{
+    overflow: hidden;
+    width: 1200px;
+    height: 1200px;
+    position: relative;
+    top: -600px;
+    left: -000px;
+    border-radius: 900px;
+    display: block;
+    }
+    .device-outline-2{
+        overflow: hidden;
+        border-radius: 90px;
+        position: relative;
+        top: 600px;
+        left: 400px;
+        display: block;
+        width: 380px;
+        height: 600px;
+        }
+        .device-outline-1{
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 5px;
+            right: 5px;
+            bottom: 0;
+            background: #CCC;
+            }
+
+.speaker {
+    background-color: #CCC;
+    border-radius: 90px / 50px;
+    height: 15px;
+    width: 150px;
+    position: absolute;
+    top: 40px;
+    left: 110px;
+    z-index: 2;
+    border-radius: 600px /60px;
+    }
+
+.screen-outline-1 {
+    background-color: #555;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    right: 20px;
+    height: 330px;
+    display: block;
+    border-radius: 600px / 100px;
+    }
+    .screen {
+        background-color: #888;
+        position: absolute;
+        top: 50px;
+        left: 10px;
+        right: 10px;
+        bottom: 60px;
+        display: block;
+        border-radius: 3px;
+        box-shadow: inset 0 2px 10px rgba( 0, 0, 0, .4 );
+        }
+
+.keyboard-outline-1 {
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    right: 15px;
+    height: 230px;
+    display: block;
+    }   
+    .keyboard {
+        padding-top: 30px;
+        display: block;
+        }
+
+    .row {
+        display: block;
+        text-align: center;
+        }
+        .key {
+            margin: 1px;
+            width: 26px;
+            height: 32px;
+            background-color: #AAA;
+            display: inline-block;
+            border-radius: 8px;
+            /*
+            box-shadow: 0 -2px 2px #000, 
+                        0 2px 2px #FFF,
+                        inset 0 2px 2px #FFF,
+                        inset 0 -2px 2px #000;
+            */
+            }
+        .space-key,
+        .shift-key{
+            width: 78px;
+            }
+        .key.left {
+            }
+        .key.right {
+            }
+        .shift-left{
+            border-radius: 5px 5px 5px 45px;
+            }
+        .shift-right{
+            border-radius: 5px 5px 45px 5px;
+            }

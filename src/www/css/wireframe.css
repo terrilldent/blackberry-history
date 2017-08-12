@@ -1,0 +1,40 @@
+
+/* ----------- Reset Styles --------- */
+
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,form,label,input,textarea,fieldset,p,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+a,a:active,a:focus,input,textarea{outline:none; text-decoration: none}
+td,th{vertical-align:top;text-align:left}
+img,iframe,fieldset{ border:none}
+ol,ul{list-style:none}
+li{list-style-type:none}
+h1,h2,h3,h4{font-size:100%;font-weight:normal}  
+
+
+/* ----------- Common Styles --------- */
+
+
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    -webkit-transition: all .5s linear;
+}
+
+.device{
+    overflow:hidden;
+    }
+
+
+.outline .device-outline-4{
+    border: 1px solid #00F;
+    }
+.outline .device-outline-3{
+    border: 1px solid #FF0;
+    }
+.outline .device-outline-2{
+    border: 1px solid #F00;
+    }
+.outline .device-outline-1{
+    }

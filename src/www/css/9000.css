@@ -1,0 +1,118 @@
+
+.device {
+    width: 400px;
+    height: 600px;
+    display: block;
+    margin: 30px auto 0;
+    }
+
+
+.device-outline-4{
+    position: relative;
+    display: block;
+    }
+.device-outline-3{
+    position: relative;
+    display: block;
+    }
+    .device-outline-2{
+        overflow: hidden;
+        border-radius: 90px;
+        border-radius: 110px / 80px;
+        position: relative;
+        display: block;
+        width: 380px;
+        height: 600px;
+        background: #CCC;
+        }
+        .device-outline-1{
+            display: block;
+            position: absolute;
+            border-radius: 100px / 70px;
+            top: 15px;
+            left: 15px;
+            right: 15px;
+            bottom: 15px;
+            background: #333;
+            overflow: hidden;
+            }
+
+.speaker {
+    background-color: #CCC;
+    border-radius: 20px;
+    height: 10px;
+    width: 90px;
+    position: absolute;
+    top: 20px;
+    left: 135px;
+    z-index: 2;
+    }
+
+.screen-outline-1 {
+    background-color: #444;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 300px;
+    display: block;
+    }
+    .screen {
+        background-color: #222;
+        position: absolute;
+        top: 80px;
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+        display: block;
+        border-radius: 0px;
+        box-shadow: inset 0 2px 5px rgba( 0, 0, 0, .4 );
+        }
+
+.keyboard-outline-1 {
+    position: absolute;
+    bottom: 0px;
+    left: 2px;
+    right: 2px;
+    height: 230px;
+    display: block;
+    }   
+    .keyboard {
+        padding-top: 30px;
+        display: block;
+        }
+
+    .row {
+        display: block;
+        text-align: center;
+        border-top: 3px solid #CCC;
+        padding-top: 3px;
+        }
+        .key {
+            margin: 0px;
+            width: 30px;
+            height: 32px;
+            background: #555;
+            display: inline-block;
+            border-radius: 3px;
+            /*
+            box-shadow: 0 -2px 2px #000, 
+                        0 2px 2px #FFF,
+                        inset 0 2px 2px #FFF,
+                        inset 0 -2px 2px #000;
+            */
+            }
+        .space-key,
+        .shift-key{
+            width: 40px;
+            }
+        .key.left {
+            }
+        .key.right {
+            }
+        .shift-left{
+            border-radius: 5px 5px 5px 45px;
+            }
+        .shift-right{
+            border-radius: 5px 5px 45px 5px;
+            }
